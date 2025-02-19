@@ -7,9 +7,9 @@ using namespace std;
 
 class push: public Instruccion {
     protected:
-        int valor;
+    int instruccionL;
     public:
-        push(int valor); // Constructor
+        push(int instruccionL); // Constructor
         ~push(); // Destructor
         void ejecutar(stack<int> &pila) override;
         int modificar(int pc) override;

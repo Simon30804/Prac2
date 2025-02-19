@@ -4,7 +4,7 @@
 using namespace std;
 
 
-jumpif::jumpif(int instruccionL) : instruccionL(instruccionL), hacerSalto(false){ 
+jumpif::jumpif(int instruccionL) : instruccionL(instruccionL) { 
 }
 
 jumpif::~jumpif(){
@@ -30,5 +30,5 @@ int jumpif::modificar(int pc){
 }
 
 std::string jumpif::mostrar(){
-    return " jumpif "  + instruccionL;
+    return " jumpif "  + to_string(instruccionL) ;
 }

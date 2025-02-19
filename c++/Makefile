@@ -7,7 +7,7 @@ CXX = g++
 CXXFLAGS = -Wall -g
 
 # Archivos fuente y objetos
-SOURCES = main.cc Programa.cc add.cc dup.cc instruccion.cc jumpif.cc mul.cc over.cc push.cc read.cc swap.cc write.cc
+SOURCES = main.cc Programa.cc add.cc dup.cc instruccion.cc jumpif.cc mul.cc over.cc push.cc read.cc swap.cc write.cc suma.cc factorial.cc cuentaAtras.cc
 OBJECTS = $(SOURCES:.cc=.o)
 
 # Ejecutable

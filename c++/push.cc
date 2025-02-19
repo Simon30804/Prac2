@@ -3,8 +3,7 @@
 
 using namespace std;
 
-push::push(int valor){
-    this->valor = valor;
+push::push(int instruccionL) : instruccionL(instruccionL) { 
 }
 
 push::~push() {
@@ -12,7 +11,7 @@ push::~push() {
 
 
 void push::ejecutar(stack<int>& pila){
-    pila.push(valor);
+    pila.push(instruccionL);
 }
 
 int push::modificar(int pc){
@@ -20,5 +19,5 @@ int push::modificar(int pc){
 }
 
 std::string push::mostrar(){
-    return " push" ;
+    return " push " + to_string(instruccionL);
 }

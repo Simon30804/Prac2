@@ -11,28 +11,32 @@
 #include "swap.h"
 #include "over.h"
 #include "mul.h"
+#include "suma.h"
+#include "cuentaAtras.h"
+#include "factorial.h"
 
 
 using namespace std;
 
 int main () {
     cout << "Primer programa: suma de dos números: " << endl;
-    Programa sumar = Programa::Suma();
+    suma sumar;
     sumar.listar();
-    sumar.ejecutar();
     cout << "Ejecucion: " << endl;
+    sumar.ejecutar();
 
     cout << "Segundo programa: Cuenta atrás: " << endl;
-    Programa cuentaAtras = Programa::CuentaAtras();
+    cuentaAtras cuentaAtras;
     cuentaAtras.listar();
-    cuentaAtras.ejecutar();
     cout << "Ejecucion: " << endl;
+    cuentaAtras.ejecutar();
 
     cout << "Tercer programa: Factorial" << endl;
-    Programa factorial = Programa::Factorial();
-    factorial.listar();
-    factorial.ejecutar();
     cout << "Ejecucion: " << endl;
+    factorial factorial;
+    factorial.listar();
+    cout << "Ejecucion: " << endl;
+    factorial.ejecutar();
     
     return 0;
 }
