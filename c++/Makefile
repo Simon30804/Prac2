@@ -11,7 +11,7 @@ SOURCES = main.cc Programa.cc add.cc dup.cc instruccion.cc jumpif.cc mul.cc over
 OBJECTS = $(SOURCES:.cc=.o)
 
 # Ejecutable
-EXEC = programa
+EXEC = main
 
 # Regla por defecto
 all: $(EXEC)

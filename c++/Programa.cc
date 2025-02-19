@@ -27,8 +27,10 @@ void Programa::setInstruccion(int i, Instruccion* instruccion){
 // Mientras haya instrucciones por ejecutar, ejecuto la instrucción en la posición pc del vector de instrucciones e incremento el contador de programa
 void Programa::ejecutar(){
     while(pc < numInstrucciones){
+        cout << "Ejecutando instruccion en pc= " << pc << endl;
         instrucciones[pc]->ejecutar(pila); // Ejecuto la instrucción en la posición pc del vector de instrucciones
         pc = instrucciones[pc]->modificar(pc); // Incremento el contador de programa
+        cout << "Nuevo pc= " << pc << endl;
     }
 }
 
