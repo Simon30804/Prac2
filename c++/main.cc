@@ -19,24 +19,24 @@
 using namespace std;
 
 int main () {
-    cout << "Primer programa: suma de dos números: " << endl;
+    cout << "Programa: " << endl;
     suma sumar;
     sumar.listar();
     cout << "Ejecucion: " << endl;
     sumar.ejecutar();
 
-    cout << "Segundo programa: Cuenta atrás: " << endl;
+    cout << "Programa: " << endl;
     cuentaAtras cuentaAtras;
     cuentaAtras.listar();
     cout << "Ejecucion: " << endl;
     cuentaAtras.ejecutar();
 
-    cout << "Tercer programa: Factorial" << endl;
+    cout << "Programa:" << endl;
     cout << "Ejecucion: " << endl;
     factorial factorial;
     factorial.listar();
     cout << "Ejecucion: " << endl;
     factorial.ejecutar();
-    
+
     return 0;
 }

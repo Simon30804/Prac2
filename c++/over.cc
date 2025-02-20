@@ -19,5 +19,5 @@ int over::modificar(int pc){
 }
 
 std::string over::mostrar() {
-    return " over" ;
+    return "    over" ;
 }

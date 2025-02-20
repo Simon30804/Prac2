@@ -30,4 +30,6 @@ factorial::factorial() : Programa(14) {
     instrucciones[13] = new write();
 }
 
-factorial::~factorial(){}
+factorial::~factorial(){
+    delete[] instrucciones;
+}

@@ -15,5 +15,5 @@ int dup::modificar(int pc){
 }
 
 std::string dup::mostrar(){
-    return " dup";
+    return "    dup";
 }
