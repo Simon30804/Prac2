@@ -8,7 +8,7 @@ class Programa {
 
     public Programa(int numInstrucciones){
         instrucciones = new Instruccion[numInstrucciones];
-        this.numInstrucciones = numInstrucciones; // Inicializa el número de instrucciones
+        this.numInstrucciones = numInstrucciones;   // Inicializa el número de instrucciones
         pc = 0;     // Inicializo el contador de programa en 0
         pila = new Stack<>();    // Inicializo la pila vacía
     }
@@ -19,7 +19,6 @@ class Programa {
             instrucciones[pc].ejecutar(pila); // Ejecuto la instrucción en la posición pc del vector de instrucciones
             pc = instrucciones[pc].incrementarPc(pc); // Incremento el contador de programa
         }
-        System.out.print("\n");
     }
 
     // Muestro por pantalla las instrucciones del programa, junto a su número de línea
@@ -27,7 +26,5 @@ class Programa {
         for(int i = 0; i < numInstrucciones; i++){
             System.out.print(i + instrucciones[i].mostrar() + "\n" ); 
         }
-        System.out.print("\n");
     }
-
 }

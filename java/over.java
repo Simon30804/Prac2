@@ -13,7 +13,7 @@ class over extends Instruccion{
 
     @Override
     public int incrementarPc(int pc) {
-        return pc + 1;
+        return pc + 1;  // Incremento el contador de programa en 1
     }
 
     @Override
