@@ -19,6 +19,7 @@ class Programa {
             instrucciones[pc].ejecutar(pila); // Ejecuto la instrucción en la posición pc del vector de instrucciones
             pc = instrucciones[pc].incrementarPc(pc); // Incremento el contador de programa
         }
+        System.out.print("\n");
     }
 
     // Muestro por pantalla las instrucciones del programa, junto a su número de línea
@@ -26,6 +27,7 @@ class Programa {
         for(int i = 0; i < numInstrucciones; i++){
             System.out.print(i + instrucciones[i].mostrar() + "\n" ); 
         }
+        System.out.print("\n");
     }
 
 }

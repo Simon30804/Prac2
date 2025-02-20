@@ -19,7 +19,7 @@ class push extends Instruccion {
 
     @Override
     public String mostrar(){
-        return " push ";
+        return "    push ";
     }
     
 }

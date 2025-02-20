@@ -16,6 +16,6 @@ class mul extends Instruccion{
 
     @Override
     public String mostrar(){
-        return " mul";
+        return "    mul";
     }
 }

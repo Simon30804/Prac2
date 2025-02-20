@@ -6,9 +6,9 @@ class over extends Instruccion{
     public void ejecutar(Stack<Integer> pila) {
         int valor1 = pila.pop();
         int valor2 = pila.pop();
-        pila.push(valor2);//apilo el segundo
-        pila.push(valor1); //apilo el que estaba en la cima
-        pila.push(valor2);//apilo de nuevo el segundo
+        pila.push(valor2);  // apilo el segundo
+        pila.push(valor1);  // apilo el que estaba en la cima
+        pila.push(valor2);  // apilo de nuevo el segundo
     }
 
     @Override
@@ -18,7 +18,7 @@ class over extends Instruccion{
 
     @Override
     public String mostrar() {
-        return " over";
+        return "    over";
     }
     
 }

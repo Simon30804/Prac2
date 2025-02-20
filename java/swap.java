@@ -17,6 +17,6 @@ class swap extends Instruccion{
 
     @Override
     public String mostrar() {
-        return " swap";
+        return "    swap";
     }
 }

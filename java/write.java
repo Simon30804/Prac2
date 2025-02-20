@@ -13,6 +13,6 @@ class write extends Instruccion {
 
     @Override
     public String mostrar(){
-        return " write";
+        return "    write";
     }
 }

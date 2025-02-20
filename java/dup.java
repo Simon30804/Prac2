@@ -16,6 +16,6 @@ class dup extends Instruccion {
 
     @Override
     public String mostrar(){
-        return " dup";
+        return "    dup";
     }
 }

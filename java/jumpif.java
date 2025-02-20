@@ -33,6 +33,6 @@ class jumpif extends Instruccion {
 
     @Override
     public String mostrar(){
-        return " jumpif" + " " + instruccionL;
+        return "    jumpif" + " " + instruccionL;
     }
 }

@@ -17,6 +17,6 @@ public class add extends Instruccion {
 
     @Override
     public String mostrar(){
-        return " add";
+        return "    add";
     }
 }
