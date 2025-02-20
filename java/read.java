@@ -6,7 +6,7 @@ class read extends Instruccion {
     
     @Override
     public void ejecutar(Stack<Integer> pila){
-        System.out.println("Introduce un valor entero: ");
+        System.out.print("Introduce un valor entero: ");
         int valor = sc.nextInt(); // Leo un entero
         pila.push(valor);
     }
