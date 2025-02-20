@@ -13,5 +13,5 @@ int write::modificar(int pc){
 }
 
 std::string write::mostrar() {
-    return " write";
+    return "    write";
 }

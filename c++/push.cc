@@ -19,5 +19,5 @@ int push::modificar(int pc){
 }
 
 std::string push::mostrar(){
-    return " push " + to_string(instruccionL);
+    return "    push " + to_string(instruccionL);
 }

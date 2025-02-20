@@ -15,5 +15,5 @@ int add::modificar(int pc){
 }
 
 std::string add::mostrar(){
-   return " add";
+   return "    add";
 }

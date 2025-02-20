@@ -30,5 +30,5 @@ int jumpif::modificar(int pc){
 }
 
 std::string jumpif::mostrar(){
-    return " jumpif "  + to_string(instruccionL) ;
+    return "    jumpif "  + to_string(instruccionL) ;
 }

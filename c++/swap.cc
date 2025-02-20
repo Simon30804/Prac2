@@ -17,5 +17,5 @@ int swap::modificar(int pc){
 }
 
 std::string swap::mostrar(){
-    return " swap";
+    return "    swap";
 }

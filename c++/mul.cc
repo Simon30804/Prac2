@@ -16,5 +16,5 @@ int mul::modificar(int pc){
 }
 
 std::string mul::mostrar() {
-    return " mul" ;
+    return "    mul" ;
 }

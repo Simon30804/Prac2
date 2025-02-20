@@ -17,6 +17,7 @@ void Programa::ejecutar(){
         instrucciones[pc]->ejecutar(pila); // Ejecuto la instrucción en la posición pc del vector de instrucciones
         pc = instrucciones[pc]->modificar(pc); // Incremento el contador de programa
     }
+    cout << endl;
 }
 
 // Muestro por pantalla las instrucciones del programa, junto a su número de línea
@@ -24,5 +25,6 @@ void Programa::listar(){
     for(int i = 0; i < numInstrucciones; i++){
         cout << to_string(i) << instrucciones[i]->mostrar() << endl; 
     }
+    cout << endl;
 }
 

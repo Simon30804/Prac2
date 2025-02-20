@@ -20,4 +20,6 @@ cuentaAtras::cuentaAtras() : Programa(7) {
     instrucciones[6] = new jumpif(1);
 }
 
-cuentaAtras::~cuentaAtras(){}
+cuentaAtras::~cuentaAtras(){
+    delete[] instrucciones;
+}

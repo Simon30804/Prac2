@@ -4,7 +4,7 @@
 using namespace std;
 
 void read::ejecutar(stack<int>& pila){
-    cout << "Introduce un valor: ";
+    cout << "? ";
     int valor;
     cin >> valor;
     pila.push(valor);
@@ -14,5 +14,5 @@ int read::modificar(int pc){
 }
 
 std::string read::mostrar() {
-    return " read" ;
+    return "    read" ;
 }
