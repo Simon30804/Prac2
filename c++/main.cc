@@ -22,21 +22,27 @@ int main () {
     cout << "Programa: " << endl;
     suma sumar;
     sumar.listar();
+    cout << endl;
     cout << "Ejecucion: " << endl;
     sumar.ejecutar();
+    cout << endl;
 
     cout << "Programa: " << endl;
     cuentaAtras cuentaAtras;
     cuentaAtras.listar();
+    cout << endl;
     cout << "Ejecucion: " << endl;
     cuentaAtras.ejecutar();
+    cout << endl;
 
     cout << "Programa:" << endl;
     cout << "Ejecucion: " << endl;
     factorial factorial;
     factorial.listar();
+    cout << endl;
     cout << "Ejecucion: " << endl;
     factorial.ejecutar();
+    cout << endl;
 
     return 0;
 }
