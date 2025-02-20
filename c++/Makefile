@@ -1,5 +1,3 @@
-# Makefile para compilar un proyecto C++
-
 # Compilador
 CXX = g++
 
